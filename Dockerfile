@@ -1,4 +1,4 @@
-FROM wordpress
+FROM wordpress:4.7.2-php7.1-fpm-alpine
 
 # Install requirements for wp-cli support
 RUN apt-get update \
